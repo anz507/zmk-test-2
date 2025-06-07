@@ -1,0 +1,6 @@
+if SHIELD_KOOLTEST
+
+config ZMK_KEYBOARD_NAME
+    default "kooltest"
+
+endif

@@ -1,2 +1,3 @@
 config SHIELD_KOOLTEST
-    def_bool $(shield_list_contains,kooltest)
+    bool "Enable kooltest shield"
+    default y

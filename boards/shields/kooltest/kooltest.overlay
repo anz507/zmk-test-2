@@ -19,3 +19,7 @@
                     <&pro_micro 8 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;
     };
 };
+
+zephyr_udc0: &usbd {
+    status = "okay";
+};

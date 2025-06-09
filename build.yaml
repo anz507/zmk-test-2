@@ -20,5 +20,6 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: tester_pro_micro
+    # shield: tester_pro_micro
+    shield: kooltest
     snippet: zmk-usb-logging
